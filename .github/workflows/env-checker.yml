@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Env
-        run: echo ${{ github }}
+        run: env | sort
