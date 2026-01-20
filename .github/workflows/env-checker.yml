@@ -1,0 +1,10 @@
+name: Action Env Checker
+
+on: workflow_dispatch
+
+jobs:
+  print-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Env
+        run: echo ${{ github }}
